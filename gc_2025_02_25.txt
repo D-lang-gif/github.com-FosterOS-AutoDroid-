@@ -1,0 +1,89 @@
+00:01:41.703 INFO  GCLog - GameCenterApplication: batteryConditionBroadcastSupport=true
+00:01:41.705 INFO  GCLog - GameAssistantImpl: udid is agree for SDK: 1
+00:01:41.707 INFO  GCLog - START_UP_PROCESS: AmsServiceImpl getUdidSignStateByGameAssistant state=1
+00:01:41.718 INFO  GCLog - START_UP_PROCESS: BootController appStartInit() invoked by GameCenterBizApplication onAppInit, boot hasReady: -1
+00:01:41.720 INFO  GCLog - START_UP_PROCESS: BootController startupBoot() invoked from: BootController appStartInit()
+00:01:41.726 INFO  GCLog - ComponentUtil: setComponentEnabledSetting cls=class com.hihonor.gamecenter.gcdownloadinstallservice.receiver.WifiStateChangeReceiver,isEnabled=true
+00:01:41.738 INFO  GCLog - ComponentUtil: setComponentEnabledSetting cls=class com.hihonor.gamecenter.gcdownloadinstallservice.receiver.WifiStateChangeReceiverWithoutConditions,isEnabled=false
+00:01:41.757 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=6caf52bf-ade0-425f-8508-56bb3cbd01ce
+00:01:41.780 INFO  GCLog - START_UP_PROCESS: GameCenterApplication onCreated: EnvInit.init(), GameCenterBizApplication.onAppInit(), XDownloadInstallHelper.init(),ActivateNotificationManager.triggeredNotify() finish!
+00:01:41.825 INFO  GCLog - PowerConnectedReceiver: onReceive p1 is: android.intent.action.ACTION_POWER_CONNECTED
+00:01:41.839 INFO  GCLog - RegisterReceiverUseCase: Register user receiver execute
+00:01:41.846 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:01:41.848 INFO  GCLog - QuickGame: isSupportQuickGameQuery() is not support, versioncode:null
+00:01:41.860 INFO  GCLog - START_UP_PROCESS: checkSignLoginState from BootController startupBoot()
+00:01:41.865 INFO  GCLog - AccountServiceImpl: startupInit
+00:01:41.871 INFO  GCLog - GameCenterApplication: verify cold start msg,run
+00:01:41.872 INFO  GCLog - PowerConnectedReceiver: onReceive p1 is: android.intent.action.ACTION_POWER_CONNECTED
+00:01:41.884 INFO  GCLog - NetConnectChangeReceiver: onReceive action is: android.net.conn.CONNECTIVITY_CHANGE
+23:13:18.540 INFO  GCLog - DownloadTaskHelper: initXDownload,true ,null
+23:13:18.544 INFO  GCLog - ConfigHelper: webpage_loadLocalWhiteList start
+23:13:18.595 INFO  GCLog - AmsServiceImpl: udid in sp sign state=1
+23:13:18.603 INFO  GCLog - AmsServiceImpl: ams cache state=1
+23:13:18.611 INFO  GCLog - CookieCenter: setDeviceInfoCookie start
+23:13:18.659 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=d19455a4-f0e7-4334-ab4b-ac9950a37e56
+23:13:18.684 INFO  GCLog - DeviceInfo: getRiskControlDeviceId start
+23:13:18.693 INFO  GCLog - DeviceInfo: getRiskControlDeviceId getUdId suc
+23:13:18.804 INFO  GCLog - GameCenterApplication: batteryConditionBroadcastSupport=true
+23:13:18.861 INFO  GCLog - ComponentUtil: setComponentEnabledSetting cls=class com.hihonor.gamecenter.gcdownloadinstallservice.receiver.WifiStateChangeReceiver,isEnabled=true
+23:13:18.875 INFO  GCLog - ConfigHelper: webpage_loadLocalWhiteList end
+23:13:18.888 INFO  GCLog - GameAssistantImpl: isInstallGameAssistant: true
+23:13:18.889 INFO  GCLog - ComponentUtil: setComponentEnabledSetting cls=class com.hihonor.gamecenter.gcdownloadinstallservice.receiver.WifiStateChangeReceiverWithoutConditions,isEnabled=false
+23:13:18.922 INFO  GCLog - START_UP_PROCESS: GameCenterApplication onCreated: EnvInit.init(), GameCenterBizApplication.onAppInit(), XDownloadInstallHelper.init(),ActivateNotificationManager.triggeredNotify() finish!
+23:13:18.951 INFO  GCLog - PowerConnectedReceiver: onReceive p1 is: android.intent.action.ACTION_POWER_CONNECTED
+23:13:19.066 INFO  GCLog - GameCenterApplication: verify cold start msg,run
+23:13:19.871 INFO  GCLog - NetConnectChangeReceiver: onReceive action is: android.net.conn.CONNECTIVITY_CHANGE
+23:13:20.015 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:13:20.017 INFO  GCLog - QuickGame: isSupportQuickGameQuery() is not support, versioncode:null
+23:13:42.424 INFO  GCLog - DeviceInfo: getRiskControlDeviceId start
+23:13:42.457 INFO  GCLog - DeviceInfo: getRiskControlDeviceId getUdId suc
+23:13:42.519 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=4cca0ae9-136e-45d5-af26-f12ef318a4f4
+23:13:42.531 INFO  GCLog - GameAssistantImpl: udid is agree for SDK: 1
+23:13:42.534 INFO  GCLog - START_UP_PROCESS: AmsServiceImpl getUdidSignStateByGameAssistant state=1
+23:13:42.537 INFO  GCLog - START_UP_PROCESS: BootController appStartInit() invoked by GameCenterBizApplication onAppInit, boot hasReady: -1
+23:13:42.539 INFO  GCLog - START_UP_PROCESS: BootController startupBoot() invoked from: BootController appStartInit()
+23:13:42.542 INFO  GCLog - RegisterReceiverUseCase: Register user receiver execute
+23:13:42.547 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:13:42.549 INFO  GCLog - START_UP_PROCESS: checkSignLoginState from BootController startupBoot()
+23:13:42.555 INFO  GCLog - AccountServiceImpl: startupInit
+23:13:42.568 INFO  GCLog - QuickGame: isSupportQuickGameQuery() is not support, versioncode:null
+23:13:42.864 INFO  GCLog - NetConnectChangeReceiver: onReceive action is: android.net.conn.CONNECTIVITY_CHANGE
+23:13:43.575 INFO  GCLog - HonorAccountProvider: getAccountInfo#onLogin
+23:13:43.580 INFO  GCLog - AccountServiceImpl: getUserAccountInfo
+23:13:43.653 INFO  GCLog - AccountServiceImpl: startupInit end
+23:13:43.805 INFO  GCLog - SysConfigChecker: countryCode:MX,lastCountryCode:
+23:13:43.808 INFO  GCLog - BootController: executeStartup: grs[MX], uSit[MX]
+23:13:43.907 INFO  GCLog - START_UP_PROCESS: BootController boot execute Startup finished isBootReady is: true
+23:13:43.909 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo start
+23:13:43.943 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo: getUserInfo setCookie
+23:13:44.311 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:13:44.906 INFO  GCLog - XDownloadInstallHelper: observerEvent UniteCountryCodeFinishEvent!
+23:13:44.955 INFO  GCLog - GameCenterBizApplication: observerEvent BootHotStartupEvent!
+23:13:44.911 INFO  GCLog - GameCenterBizApplication: observerEvent init report SDK!
+23:13:45.068 INFO  GCLog - XDownload: continueAll start
+23:13:45.078 INFO  GCLog - ConfigHelper: WhiteList config init
+23:13:45.118 INFO  GCLog - XDownload: continueAll end
+23:13:45.744 ERROR GCLog - com.hihonor.gamecenter.base_report.HiAnalyticsManager: burying point not enable or no init eventId:8810000059
+23:13:45.925 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onBizInit() boot success pushService.init(), getMainFrameFromNet(true) will execute.
+23:13:45.978 ERROR GCLog - com.hihonor.gamecenter.base_report.HiAnalyticsManager: burying point not enable or no init eventId:881000000099
+23:13:46.003 INFO  GCLog - START_UP_PROCESS: MainPageFrameRepository getMainFrameFromNet() invoked from: GameCenterBizApplication onBizInit(), execute isPreLoad is: true
+23:13:46.024 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:13:46.026 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:13:46.027 INFO  GCLog - PushServiceImpl: init
+23:13:46.061 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:13:46.132 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:13:46.219 INFO  GCLog - GameCenterBizApplication: onBizInit updateToken
+23:13:46.221 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false start
+23:13:46.245 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:13:46.247 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:13:46.249 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:13:46.252 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:13:46.335 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:13:46.337 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:13:46.339 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:13:46.342 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:35:52.247 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:35:52.242 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=13a3a502-a79f-4b12-8257-e31c35ebc9b9
+23:35:52.265 INFO  GCLog - QuickGame: isSupportQuickGameQuery() is not support, versioncode:null
+23:35:53.442 INFO  GCLog - XDownload: continueAll start
+23:35:53.649 INFO  GCLog - XDownload: continueAll end

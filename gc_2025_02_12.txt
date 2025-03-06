@@ -1,0 +1,225 @@
+00:22:03.196 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=13b130a8-5ac8-461f-b61a-3028259241fe
+00:22:03.419 INFO  GCLog - NetConnectChangeReceiver: onReceive action is: android.net.conn.CONNECTIVITY_CHANGE
+00:22:04.019 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onAppInit preLoadMainPageData() will execute!
+00:22:04.249 INFO  GCLog - START_UP_PROCESS: MainPageCacheDataModel loadFrameData() mainFrameData from loadFrameDataFile() load time=178
+00:22:04.270 ERROR GCLog - MainPageFileHelper: loadContentDataFile is not exist
+00:22:04.352 INFO  GCLog - START_UP_PROCESS: MainPageCacheDataModel loadContentData() mainContentData from getPageAssemblyListCache(), pageId:540, load frame pageId:540,load time=101
+00:22:05.130 INFO  GCLog - GameAssistantImpl: udid is agree for SDK: 1
+00:22:05.131 INFO  GCLog - START_UP_PROCESS: AmsServiceImpl getUdidSignStateByGameAssistant state=1
+00:22:05.133 INFO  GCLog - START_UP_PROCESS: BootController appStartInit() invoked by GameCenterBizApplication onAppInit, boot hasReady: -1
+00:22:05.142 INFO  GCLog - START_UP_PROCESS: BootController startupBoot() invoked from: BootController appStartInit()
+00:22:05.144 INFO  GCLog - RegisterReceiverUseCase: Register user receiver execute
+00:22:05.148 INFO  GCLog - START_UP_PROCESS: checkSignLoginState from BootController startupBoot()
+00:22:05.163 INFO  GCLog - AccountServiceImpl: startupInit
+00:22:05.534 INFO  GCLog - XDownload: continueAll start
+00:22:05.584 INFO  GCLog - XDownload: continueAll end
+00:22:05.956 INFO  GCLog - HonorAccountProvider: getAccountInfo#onLogin
+00:22:05.958 INFO  GCLog - AccountServiceImpl: getUserAccountInfo
+00:22:05.985 INFO  GCLog - AccountServiceImpl: startupInit end
+00:22:05.987 INFO  GCLog - SysConfigChecker: countryCode:MX,lastCountryCode:
+00:22:05.991 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:05.996 INFO  GCLog - BootController: executeStartup: grs[MX], uSit[MX]
+00:22:06.027 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo start
+00:22:06.036 INFO  GCLog - START_UP_PROCESS: BootController boot execute Startup finished isBootReady is: true
+00:22:06.047 INFO  GCLog - XDownloadInstallHelper: observerEvent UniteCountryCodeFinishEvent!
+00:22:06.049 INFO  GCLog - GameCenterBizApplication: observerEvent init report SDK!
+00:22:06.051 INFO  GCLog - ConfigHelper: WhiteList config init
+00:22:06.054 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo: getUserInfo setCookie
+00:22:06.074 INFO  GCLog - GameCenterBizApplication: observerEvent BootHotStartupEvent!
+00:22:06.088 ERROR GCLog - com.hihonor.gamecenter.base_report.HiAnalyticsManager: burying point not enable or no init eventId:8810000059
+00:22:06.091 ERROR GCLog - com.hihonor.gamecenter.base_report.HiAnalyticsManager: burying point not enable or no init eventId:881000000099
+00:22:06.093 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onBizInit() boot success pushService.init(), getMainFrameFromNet(true) will execute.
+00:22:06.095 INFO  GCLog - START_UP_PROCESS: MainPageFrameRepository getMainFrameFromNet() invoked from: GameCenterBizApplication onBizInit(), execute isPreLoad is: true
+00:22:06.097 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.100 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.109 INFO  GCLog - PushServiceImpl: init
+00:22:06.126 INFO  GCLog - BootReadyUseCase: getAccountInfo() load sp encode user info
+00:22:06.128 INFO  GCLog - BootReadyUseCase: accountStartup success
+00:22:06.140 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.146 INFO  GCLog - PushServiceImpl: bindService loginBindToken
+00:22:06.157 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.184 INFO  GCLog - GameCenterBizApplication: onBizInit updateToken
+00:22:06.186 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false start
+00:22:06.278 INFO  GCLog - PushDownloadHelper: resumeDownloadByNetJobs!
+00:22:06.325 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.372 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.440 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.440 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.441 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.441 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.444 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.444 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.473 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.475 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.483 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.497 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.520 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.522 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.525 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  *********************ry/check start
+00:22:06.532 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.538 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.542 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ***********nfig/get start
+00:22:06.544 INFO  GCLog - http_request: *********************ry/check traceName = 20eb7a4a-2bc6-4e02-b0a5-917f8a930dbe
+00:22:06.552 INFO  GCLog - http_request: ***********nfig/get traceName = 5962a228-6e62-4a38-b6fb-386e48dc0028
+00:22:06.576 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ***********************callback start
+00:22:06.581 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.583 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.584 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.590 INFO  GCLog - http_request: ***********************callback traceName = 6b0c0b84-10e3-4ffe-b725-47d89d459cf3
+00:22:06.595 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ********************************st/check start
+00:22:06.601 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.639 INFO  GCLog - ConfigHelper: whiteList config observer send isRemote=false
+00:22:06.642 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:06.653 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:06.658 INFO  GCLog - http_request: ********************************st/check traceName = 495f8c52-b468-4718-84ff-0cf0eab944d2
+00:22:06.656 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:06.682 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ********************************st/check start
+00:22:06.689 INFO  GCLog - http_request: ********************************st/check traceName = 0a5ddbb2-5f66-4866-9f6c-cd0c38230c6b
+00:22:06.684 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  *****************nu/query start
+00:22:06.684 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:06.706 INFO  GCLog - http_request: *****************nu/query traceName = 2a8ff29f-f52a-4ded-ba05-c40b3fce937c
+00:22:06.736 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ********************************st/query start
+00:22:06.740 INFO  GCLog - http_request: ********************************st/query traceName = a489e03a-cf23-4634-98f5-7a24ec12d06d
+00:22:07.705 INFO  GCLog - GameCenterBizApplication: observerEvent AccountInfoFinishEvent!
+00:22:07.708 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:07.709 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:07.708 INFO  GCLog - START_UP_PROCESS: GCDownloadInstallServiceStartHelper execute() invoked from is: GameCenterBizApplication AccountInfoFinishEvent.EVENT_NAME, param isForceUpdate is: true, isContinueAllDownload is: false
+00:22:07.712 INFO  GCLog - ApkFileSha256Manager: init
+00:22:07.711 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:07.720 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:07.746 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:07.748 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:07.749 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:07.753 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:07.783 INFO  GCLog - START_UP_PROCESS: queryAllAppUpdate() start.
+00:22:07.854 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ***********nfig/get start
+00:22:07.869 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ***************************dMsgNums start
+00:22:07.872 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:07.887 INFO  GCLog - http_request: ***********nfig/get traceName = b6844709-efcd-4312-bdc1-6295e13d2758
+00:22:07.910 INFO  GCLog - http_request: ***************************dMsgNums traceName = 27b839fc-a174-40b7-bdf0-5e11b0dc0ff1
+00:22:07.938 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:07.963 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:08.044 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:08.089 INFO  GCLog - HnPushProvider: PushServiceImpl getPushStatus : enable true
+00:22:08.091 INFO  GCLog - PushServiceImpl: updateToken:enable:true
+00:22:08.093 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false bindService
+00:22:08.159 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  *********************ad/brief start
+00:22:08.164 INFO  GCLog - http_request: *********************ad/brief traceName = b9266682-3a24-49ec-9b73-75b9145eae06
+00:22:08.227 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:08.237 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:08.267 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:08.270 INFO  GCLog - GetAppInfoHelp: getInstalledPackages end
+00:22:08.272 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:08.281 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:08.283 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:08.285 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:08.294 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:08.320 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ********************k/update start
+00:22:08.332 INFO  GCLog - http_request: ********************k/update traceName = 996e63f1-849e-4987-b170-7842c5fe55c1
+00:22:08.386 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  *********************n/upload start
+00:22:08.389 INFO  GCLog - http_request: *********************n/upload traceName = 96950e50-d3e9-4293-a5b8-fb7f181fb369
+00:22:08.524 INFO  GCLog - START_UP_PROCESS: queryAllAppUpdate() start.
+00:22:08.525 INFO  GCLog - ApkFileSha256Manager: init() apk fileSha256 success. 
+00:22:08.651 INFO  GCLog - GetAppInfoHelp: getInstalledPackages end
+00:22:08.653 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:08.654 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:08.656 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:08.658 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:08.716 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:08.718 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:08.719 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:08.722 INFO  GCLog - com.hihonor.gamecenter.bu_base.reserve.ReserveHelper: upload reserve online packageNames: []
+00:22:08.722 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:08.724 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:08.726 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:08.728 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:08.731 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:09.819 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ********************************st/check end, respondCode = 200 respondMsg = 
+00:22:09.981 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   *********************ad/brief end, respondCode = 200 respondMsg = 
+00:22:09.981 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ***********************callback end, respondCode = 200 respondMsg = 
+00:22:09.987 INFO  GCLog - PushServiceImpl: loginBindToken bind success
+00:22:10.042 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ***************************dMsgNums end, respondCode = 200 respondMsg = 
+00:22:10.044 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   *****************nu/query end, respondCode = 200 respondMsg = 
+00:22:10.059 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ********************k/update start
+00:22:10.067 INFO  GCLog - BadgeNumHelper: updateBadge badgeType=unread_station_type,badgeNum=0
+00:22:10.073 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  *************************st/query start
+00:22:10.087 INFO  GCLog - http_request: *************************st/query traceName = 06d61b3e-65b1-4ab7-aa20-c8f67f171e36
+00:22:10.096 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ******************************me/query start
+00:22:10.099 INFO  GCLog - http_request: ********************k/update traceName = 2a951f5b-85b2-45e2-92d8-5c5f449bdfb2
+00:22:10.127 INFO  GCLog - http_request: ******************************me/query traceName = f1934033-3ad6-487e-9946-216c301041f6
+00:22:10.201 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   *********************n/upload end, respondCode = 200 respondMsg = 
+00:22:10.213 INFO  GCLog - START_UP_PROCESS: MainPageFrameRepository getMainFrameFromNet() success.
+00:22:10.217 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false bind success
+00:22:10.224 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ********************************st/query end, respondCode = 200 respondMsg = 
+00:22:10.225 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:10.227 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   *********************ry/check end, respondCode = 200 respondMsg = 
+00:22:10.229 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:10.233 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ********************************st/check end, respondCode = 200 respondMsg = 
+00:22:10.251 INFO  GCLog - AmsLocHelper: checkAccountServ resp.errorCode is: 0000
+00:22:10.275 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:10.298 INFO  GCLog - ConfigHelper: whiteList config observer send isRemote=true
+00:22:10.317 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:10.340 INFO  GCLog - MainPageFileHelper: saveFrameDataFile
+00:22:10.359 INFO  GCLog - AppListParamIntercept: Request appLst was successful.
+00:22:10.388 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ********************k/update end, respondCode = 200 respondMsg = 
+00:22:10.396 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:10.404 INFO  GCLog - SilentUpdateHelper: waiting silent update:[]
+00:22:10.515 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ***********nfig/get end, respondCode = 200 respondMsg = 
+00:22:10.538 INFO  GCLog - DownloadTaskHelper: save maxRunningNumber:2 ,downloadThreadNum:0
+00:22:10.584 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ***********nfig/get end, respondCode = 200 respondMsg = 
+00:22:10.590 INFO  GCLog - SplashAdFloatBallHelper: getGreyModeConfig() isGreyMode is: false
+00:22:10.633 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:10.635 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:10.644 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:10.676 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   *************************st/query end, respondCode = 200 respondMsg = 
+00:22:10.696 INFO  GCLog - AppListParamIntercept: Request appLst was successful.
+00:22:10.702 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ********************k/update end, respondCode = 200 respondMsg = 
+00:22:10.715 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:10.717 INFO  GCLog - START_UP_PROCESS: MainPageFrameRepository getMainFrameFromNet() load data to mem file sp success.
+00:22:10.770 INFO  GCLog - SilentUpdateHelper: waiting silent update:[]
+00:22:10.777 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ******************************me/query end, respondCode = 200 respondMsg = 
+00:22:10.804 INFO  GCLog - GCDownloadInstallServiceStartHelper: no calendar permission, update operation not allowed
+00:22:10.811 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:10.858 INFO  GCLog - com.hihonor.gamecenter.bu_base.reserve.ReserveHelper: query reserve online info null
+00:22:11.041 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ******************er/check start
+00:22:11.053 INFO  GCLog - http_request: ******************er/check traceName = 87a454a5-6ec9-4c94-ae53-6042476fa9cc
+00:22:11.336 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ****************h/v1/get start
+00:22:11.343 INFO  GCLog - http_request: ****************h/v1/get traceName = 830c16a7-250b-4cd9-8f3d-86adf8f1f2c6
+00:22:11.418 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ******************er/check end, respondCode = 200 respondMsg = 
+00:22:11.551 INFO  GCLog - AmsLocHelper: queryUidSignByNet,isAgreementUpdate=false,isPrivacyUpdate=false
+00:22:11.660 INFO  GCLog - AmsServiceImpl: checkAmsServiceForBootStartupResult: notifyAmsCheckResult,result=com.hihonor.gamecenter.boot.core.BootStartupResult$AmsCheckResult$Finish@6764a9d
+00:22:11.663 INFO  GCLog - AmsServiceImpl: notifyState: notifyAmsCheckResult，lastAmsCheckResult=BootStartupResult.Unknown is false
+00:22:11.665 INFO  GCLog - AmsServiceImpl: notifyState: onServiceReady
+00:22:11.701 INFO  GCLog - AmsLocHelper: start get service: finish
+00:22:11.704 INFO  GCLog - GameCenterBizApplication: observerEvent AgreementUpdateEvent: false null
+00:22:11.706 INFO  GCLog - START_UP_PROCESS: StartupUseCase handleResult BootStartupResult.AmsCheckResult.Finish.
+00:22:11.710 INFO  GCLog - GameCenterBizApplication: observerEvent BootAmsReadyEvent!
+00:22:11.931 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ****************h/v1/get end, respondCode = 200 respondMsg = 
+00:22:11.974 INFO  GCLog - AppStartHelper: syncSwitchStateToService: agreeAmsUpdateSwitch = false
+00:22:12.063 INFO  GCLog - AccountServiceImpl: getUserAccountInfo: onFinish
+00:22:12.092 INFO  GCLog - SettingSwitchHelper: PushServiceImpl setNoticeMainSwitch=true
+00:22:12.139 INFO  GCLog - SettingSwitchHelper: PushServiceImpl setNoticeMainSwitch return
+00:22:12.143 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:12.154 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:12.156 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:12.160 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:12.186 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  ***********nfig/get start
+00:22:12.193 INFO  GCLog - http_request: ***********nfig/get traceName = 6438c145-5f9b-4a43-8c6b-585bdf61c6f1
+00:22:12.716 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   ***********nfig/get end, respondCode = 200 respondMsg = 
+00:22:12.817 INFO  GCLog - SplashAdFloatBallHelper: splashOperationBean null ,del cache
+00:22:12.881 INFO  GCLog - SplashAdFloatBallHelper: floatOperationBean null ,del cache
+00:22:12.891 INFO  GCLog - GameCenterBizApplication: AccountInfoFinishEvent suc updateToken
+00:22:12.892 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false start
+00:22:12.894 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false bindService
+00:22:13.074 INFO  GCLog - LanguageHelper: getLanguage language is: es
+00:22:13.076 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+00:22:13.080 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+00:22:13.100 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+00:22:13.172 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from  *********************n/upload start
+00:22:13.176 INFO  GCLog - http_request: *********************n/upload traceName = 700ea9c0-9ec5-4db7-8e24-1b4dbce84636
+00:22:13.467 INFO  GCLog - http_request: SafeGuardInterceptor intercept() request from   *********************n/upload end, respondCode = 200 respondMsg = 
+00:22:13.524 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false bind success
+00:22:13.549 INFO  GCLog - GameCenterBizApplication: observerEvent BootMinorsAccountGuardianVerificationEvent: false
+00:22:13.561 INFO  GCLog - MinorsModeSetting: localSPKidsMode=false, currentKidsMode=false
+00:22:13.565 INFO  GCLog - MinorsModeSetting: refreshKidsMode=false
+00:22:13.567 INFO  GCLog - GameCenterBizApplication: observerEvent BootChildModeWithNotLoginEvent: false

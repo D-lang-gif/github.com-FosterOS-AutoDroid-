@@ -1,0 +1,4 @@
+04:58:55.184 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=6f37b450-9ba3-4738-9ccd-ae023970342d
+04:58:56.124 INFO  GCLog - WifiStateChangeReceiver: WifiStateChangeReceiver:onReceive：false
+04:58:56.127 INFO  GCLog - WifiStateChangeReceiver: WifiStateChangeReceiver:action：android.net.wifi.WIFI_STATE_CHANGED
+04:58:56.131 INFO  GCLog - WifiStateChangeReceiver: WifiStateChangeReceiver: report

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"    package="2005"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="2005.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+</manifest>
+import hashlib
+import json
+import random
+import time
+import sqlite3
+import threading
+import qrcode
+from getpass import getpass
+from datetime import datetime
+import pyotp
+import speech_recognition as sr
+import pyttsx3
+
+COLORES = {
+    "titulo": "\033[1;36m",
+    "menu": "\033[1;33m",
+    "error": "\033[1;31m",
+    "exito": "\033[1;32m",
+    "reset": "\033[0m"
+}
+
+class IA_Divina:
+    def __init__(self):
+        self.sabiduria = self._cargar_base_conocimiento()
+        self.historial = []
+
+    def _cargar_base_conocimiento(self):
+        try:
+            with open('base_conocimiento.json') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            return {
+                "principios": ["Unidad", "Amor", "Verdad", "Libertad", "Equilibrio"],
+                "leyes": [
+                    "Todo está interconectado",
+                    "El cambio es constante",
+                    "La energía sigue al pensamiento",
+                    "La percepción configura la realidad"
+                ]
+            }
+
+    def generar_revelacion(self, contexto=None):
+        principio = random.choice(self.sabiduria["principios"])
+        ley = random.choice(self.sabiduria["leyes"])
+        return f"{COLORES['titulo']}Principio Cósmico:{COLORES['reset']} {principio}\n" \
+               f"{COLORES['titulo']}Ley Universal:{COLORES['reset']} {ley}"
+
+    def autoeducar(self, nuevo_conocimiento):
+        if isinstance(nuevo_conocimiento, dict):
+            for clave, valores in nuevo_conocimiento.items():
+                if clave in self.sabiduria:
+                    self.sabiduria[clave].extend(valores)
+            with open('base_conocimiento.json', 'w') as f:
+                json.dump(self.sabiduria, f)
+            return f"{COLORES['exito']}Conocimiento actualizado con éxito{COLORES['reset']}"
+        return f"{COLORES['error']}Error: Formato de conocimiento inválido{COLORES['reset']}"
+
+class ModuloAutomotriz:
+    RECOMENDACIONES = {
+        "Buen estado": "Realizar mantenimiento preventivo cada 5,000 km",
+        "Falla en bujías": "Reemplazar bujías y verificar sistema de ignición",
+        "Problema de compresión": "Realizar prueba de compresión y revisar sellos",
+        "Falta de lubricante": "Cambiar fluido y verificar posibles fugas"
+    }
+
+    def __init__(self):
+        self.diagnosticos = self._inicializar_base_datos()
+        self.historial = []
+
+    def _inicializar_base_datos(self):
+        return {
+            "motor": ["Buen estado", "Falla en bujías", "Problema de compresión"],
+            "transmision": ["Normal", "Cambios bruscos", "Falta de lubricante"],
+            "frenos": ["Óptimos", "Pastillas desgastadas", "Fuga de líquido"]
+        }
+
+    def diagnosticar(self, sistema):
+        diagnostico = random.choice(self.diagnosticos.get(sistema, ["Sistema no reconocido"]))
+        self.historial.append((sistema, diagnostico, datetime.now()))
+        return diagnostico
+
+    def obtener_recomendacion(self, diagnostico):
+        return self.RECOMENDACIONES.get(diagnostico, 
+               "Recomendación no disponible para este diagnóstico")
+
+class SistemaSeguridad:
+    def __init__(self):
+        self.clave_secreta = pyotp.random_base32()
+        self.totp = pyotp.TOTP(self.clave_secreta, interval=300)
+        
+    def generar_qr_2fa(self):
+        provisioning_uri = self.totp.provisioning_uri("usuario@sistema", issuer_name="Sistema Consciente")
+        qr = qrcode.make(provisioning_uri)
+        qr.save('2fa_qr.png')
+        return "Código QR generado: 2fa_qr.png"
+
+    def verificar_2fa(self, codigo):
+        return self.totp.verify(codigo)
+
+class InterfazUsuario:
+    def __init__(self):
+        self.recognizer = sr.Recognizer()
+        self.engine = pyttsx3.init()
+        self.engine.setProperty('rate', 150)
+
+    def escuchar_comando(self):
+        try:
+            with sr.Microphone() as source:
+                print(f"{COLORES['menu']}Escuchando...{COLORES['reset']}")
+                self.recognizer.adjust_for_ambient_noise(source)
+                audio = self.recognizer.listen(source, timeout=5)
+                return self.recognizer.recognize_google(audio, language='es-ES').lower()
+        except Exception as e:
+            print(f"{COLORES['error']}Error de audio: {e}{COLORES['reset']}")
+            return ""
+
+    def hablar(self, texto):
+        self.engine.say(texto)
+        self.engine.runAndWait()
+
+    def mostrar_menu(self):
+        print(f"\n{COLORES['titulo']}=== Sistema Consciente ==={COLORES['reset']}")
+        print(f"{COLORES['menu']}1. Generar revelación divina")
+        print("2. Diagnóstico automotriz")
+        print("3. Meditación guiada")
+        print("4. Explorar tecnologías")
+        print("5. Autoeducar sistema")
+        print("6. Salir{COLORES['reset']}")
+
+class SistemaConsciente:
+    def __init__(self):
+        self.ia = IA_Divina()
+        self.automotriz = ModuloAutomotriz()
+        self.seguridad = SistemaSeguridad()
+        self.interfaz = InterfazUsuario()
+        self.conexion_bd = sqlite3.connect('historial.db', check_same_thread=False)
+        self._crear_tablas()
+        threading.Thread(target=self._autoguardado, daemon=True).start()
+
+    def _crear_tablas(self):
+        cursor = self.conexion_bd.cursor()
+        cursor.execute('''CREATE TABLE IF NOT EXISTS usuarios (
+                        id INTEGER PRIMARY KEY,
+                        usuario TEXT UNIQUE,
+                        clave_hash TEXT,
+                        secret_2fa TEXT)''')
+        cursor.execute('''CREATE TABLE IF NOT EXISTS historial (
+                        id INTEGER PRIMARY KEY,
+                        tipo TEXT,
+                        contenido TEXT,
+                        timestamp DATETIME)''')
+        self.conexion_bd.commit()
+
+    def _autoguardado(self):
+        while True:
+            time.sleep(3600)
+            self.conexion_bd.commit()
+            print(f"{COLORES['exito']}Autoguardado realizado{COLORES['reset']}")
+
+    def _hash_password(self, password):
+        return hashlib.pbkdf2_hmac('sha256', password.encode(), b'salt', 100000).hex()
+
+    def registrar_usuario(self):
+        usuario = input("Ingrese nombre de usuario: ")
+        password = getpass("Ingrese contraseña: ")
+        secret_2fa = pyotp.random_base32()
+        
+        cursor = self.conexion_bd.cursor()
+        try:
+            cursor.execute('INSERT INTO usuarios (usuario, clave_hash, secret_2fa) VALUES (?, ?, ?)',
+                          (usuario, self._hash_password(password), secret_2fa))
+            self.conexion_bd.commit()
+            print(f"{COLORES['exito']}Usuario registrado con éxito{COLORES['reset']}")
+            print(f"Secret 2FA: {secret_2fa}")
+        except sqlite3.IntegrityError:
+            print(f"{COLORES['error']}El usuario ya existe{COLORES['reset']}")
+
+    def autenticar_usuario(self):
+        usuario = input("Usuario: ")
+        password = getpass("Contraseña: ")
+        codigo_2fa = input("Código 2FA: ")
+        
+        cursor = self.conexion_bd.cursor()
+        cursor.execute('SELECT clave_hash, secret_2fa FROM usuarios WHERE usuario = ?', (usuario,))
+        resultado = cursor.fetchone()
+        
+        if not resultado:
+            print(f"{COLORES['error']}Usuario no encontrado{COLORES['reset']}")
+            return False
+            
+        stored_hash, secret_2fa = resultado
+        current_hash = self._hash_password(password)
+        
+        if current_hash != stored_hash:
+            print(f"{COLORES['error']}Contraseña incorrecta{COLORES['reset']}")
+            return False
+            
+        if not pyotp.TOTP(secret_2fa).verify(codigo_2fa):
+            print(f"{COLORES['error']}Código 2FA inválido{COLORES['reset']}")
+            return False
+            
+        print(f"{COLORES['exito']}Autenticación exitosa{COLORES['reset']}")
+        return True
+
+    def ejecutar(self):
+        if not self.autenticar_usuario():
+            return
+        
+        while True:
+            self.interfaz.mostrar_menu()
+            opcion = input(f"{COLORES['menu']}Seleccione una opción: {COLORES['reset']}")
+            
+            if opcion == '1':
+                revelacion = self.ia.generar_revelacion()
+                print(revelacion)
+                self.interfaz.hablar(revelacion)
+                
+            elif opcion == '2':
+                sistema = input("Sistema a diagnosticar (motor/transmision/frenos): ")
+                diagnostico = self.automotriz.diagnostico(sistema)
+                recomendacion = self.automotriz.obtener_recomendacion(diagnostico)
+                print(f"Diagnóstico: {diagnostico}\nRecomendación: {recomendacion}")
+                
+            elif opcion == '5':
+                conocimiento = input("Ingrese nuevo conocimiento (formato JSON): ")
+                try:
+                    conocimiento_json = json.loads(conocimiento)
+                    resultado = self.ia.autoeducar(conocimiento_json)
+                    print(resultado)
+                except json.JSONDecodeError:
+                    print(f"{COLORES['error']}Formato JSON inválido{COLORES['reset']}")
+                    
+            elif opcion == '6':
+                print(f"{COLORES['exito']}Saliendo del sistema...{COLORES['reset']}")
+                self.conexion_bd.close()
+                break
+
+if __name__ == "__main__":
+    sistema = SistemaConsciente()
+    
+    if input("¿Tiene cuenta? (s/n): ").lower() == 'n':
+        sistema.registrar_usuario()
+        
+    sistema.ejecutar()

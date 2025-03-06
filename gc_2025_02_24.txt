@@ -1,0 +1,5 @@
+02:49:35.252 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=4cf12989-7148-42f0-93ba-9ad8e743b1a7
+02:49:36.127 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onAppInit preLoadMainPageData() will execute!
+02:49:37.220 INFO  GCLog - START_UP_PROCESS: MainPageCacheDataModel loadFrameData() mainFrameData from loadFrameDataFile() load time=1062
+02:49:37.265 ERROR GCLog - MainPageFileHelper: loadContentDataFile is not exist
+02:49:37.569 INFO  GCLog - START_UP_PROCESS: MainPageCacheDataModel loadContentData() mainContentData from getPageAssemblyListCache(), pageId:540, load frame pageId:540,load time=345

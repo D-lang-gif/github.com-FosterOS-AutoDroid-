@@ -1,0 +1,84 @@
+23:38:31.164 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=2daf8f7d-41ed-4b97-a462-37251d57937d
+23:38:34.535 INFO  GCLog - XDownload: continueAll start
+23:38:34.571 INFO  GCLog - GameAssistantImpl: udid is agree for SDK: 1
+23:38:34.572 INFO  GCLog - START_UP_PROCESS: AmsServiceImpl getUdidSignStateByGameAssistant state=1
+23:38:34.574 INFO  GCLog - START_UP_PROCESS: BootController appStartInit() invoked by GameCenterBizApplication onAppInit, boot hasReady: -1
+23:38:34.601 INFO  GCLog - START_UP_PROCESS: BootController startupBoot() invoked from: BootController appStartInit()
+23:38:34.609 INFO  GCLog - RegisterReceiverUseCase: Register user receiver execute
+23:38:34.614 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onAppInit preLoadMainPageData() will execute!
+23:38:34.617 INFO  GCLog - XDownload: continueAll end
+23:38:34.617 INFO  GCLog - START_UP_PROCESS: checkSignLoginState from BootController startupBoot()
+23:38:34.620 INFO  GCLog - AccountServiceImpl: startupInit
+23:38:34.784 ERROR GCLog - MainPageFileHelper: loadFrameDataFile is not exist
+23:38:34.838 INFO  GCLog - START_UP_PROCESS: MainPageCacheDataModel loadFrameData() mainFrameData from getFrameConfigCache() load time=202!
+23:38:34.929 ERROR GCLog - MainPageFileHelper: loadContentDataFile is not exist
+23:38:35.314 INFO  GCLog - START_UP_PROCESS: MainPageCacheDataModel loadContentData() mainContentData from getPageAssemblyListCache(), pageId:540, load frame pageId:540,load time=474
+23:38:35.845 INFO  GCLog - HonorAccountProvider: getAccountInfo#onLogin
+23:38:35.848 INFO  GCLog - AccountServiceImpl: getUserAccountInfo
+23:38:35.866 INFO  GCLog - AccountServiceImpl: startupInit end
+23:38:35.868 INFO  GCLog - BootController: executeStartup: grs[MX], uSit[MX]
+23:38:35.868 INFO  GCLog - SysConfigChecker: countryCode:MX,lastCountryCode:
+23:38:35.885 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:35.915 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo start
+23:38:35.920 INFO  GCLog - START_UP_PROCESS: BootController boot execute Startup finished isBootReady is: true
+23:38:35.925 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo: getUserInfo setCookie
+23:38:35.956 INFO  GCLog - GameCenterBizApplication: observerEvent init report SDK!
+23:38:35.957 INFO  GCLog - ConfigHelper: WhiteList config init
+23:38:35.987 INFO  GCLog - BootReadyUseCase: getAccountInfo() load sp encode user info
+23:38:35.989 INFO  GCLog - BootReadyUseCase: accountStartup success
+23:38:35.991 INFO  GCLog - PushServiceImpl: bindService loginBindToken
+23:38:35.998 INFO  GCLog - XDownloadInstallHelper: observerEvent UniteCountryCodeFinishEvent!
+23:38:36.000 INFO  GCLog - GameCenterBizApplication: observerEvent BootHotStartupEvent!
+23:38:36.015 INFO  GCLog - GameCenterBizApplication: observerEvent AccountInfoFinishEvent!
+23:38:36.017 INFO  GCLog - START_UP_PROCESS: GCDownloadInstallServiceStartHelper execute() invoked from is: GameCenterBizApplication AccountInfoFinishEvent.EVENT_NAME, param isForceUpdate is: true, isContinueAllDownload is: false
+23:38:36.024 ERROR GCLog - com.hihonor.gamecenter.base_report.HiAnalyticsManager: burying point not enable or no init eventId:8810000059
+23:38:36.026 INFO  GCLog - ApkFileSha256Manager: init
+23:38:36.143 INFO  GCLog - START_UP_PROCESS: queryAllAppUpdate() start.
+23:38:36.239 ERROR GCLog - com.hihonor.gamecenter.base_report.HiAnalyticsManager: burying point not enable or no init eventId:881000000099
+23:38:36.253 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onBizInit() boot success pushService.init(), getMainFrameFromNet(true) will execute.
+23:38:36.457 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.459 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.462 INFO  GCLog - START_UP_PROCESS: MainPageFrameRepository getMainFrameFromNet() invoked from: GameCenterBizApplication onBizInit(), execute isPreLoad is: true
+23:38:36.487 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.489 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.490 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.492 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.495 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.496 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.496 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.499 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.500 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.504 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.505 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.507 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.509 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.513 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.513 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.527 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.527 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.529 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.523 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.531 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.523 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.525 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.538 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.512 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.540 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.580 INFO  GCLog - PushServiceImpl: init
+23:38:36.582 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.616 INFO  GCLog - ApkFileSha256Manager: init() apk fileSha256 success. 
+23:38:36.646 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.647 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.649 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.652 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.671 INFO  GCLog - ConfigHelper: whiteList config observer send isRemote=false
+23:38:36.681 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.684 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.707 INFO  GCLog - LanguageHelper: getLanguage language is: es
+23:38:36.718 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.720 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:36.733 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
+23:38:36.735 INFO  GCLog - isPersonalRecommend getIntelligentRecommend -> true
+23:38:36.751 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+23:38:37.314 INFO  GCLog - GameCenterBizApplication: onBizInit updateToken
+23:38:37.319 INFO  GCLog - PushServiceImpl: updateToken isLoginOut=false start

@@ -1,0 +1,12 @@
+21:14:06.142 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=33bb8934-5cb2-456e-894d-506122f6fb41
+21:14:07.106 INFO  GCLog - XDownload: continueAll start
+21:14:07.184 INFO  GCLog - XDownload: continueAll end
+21:14:07.405 INFO  GCLog - HonorAccountProvider: getAccountInfo#onLogin
+21:14:07.461 INFO  GCLog - AccountServiceImpl: getUserAccountInfo
+21:14:07.604 INFO  GCLog - AccountServiceImpl: startupInit end
+21:14:07.723 INFO  GCLog - BootController: executeStartup: grs[MX], uSit[MX]
+21:14:07.726 INFO  GCLog - SysConfigChecker: countryCode:MX,lastCountryCode:
+21:14:07.785 INFO  GCLog - START_UP_PROCESS: BootController boot execute Startup finished isBootReady is: true
+21:14:07.791 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo start
+21:14:07.964 INFO  GCLog - AccountInfoRepositoryImpl: deCodeSpUserInfo: getUserInfo setCookie
+21:14:08.419 INFO  GCLog - LanguageHelper: getLanguageCountryCode:es-US
